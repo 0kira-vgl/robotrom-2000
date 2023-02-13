@@ -40,7 +40,7 @@ controle.forEach( (elemento) => {
         atualizaEstatisticas(evento.target.dataset.peca)
     })
 })
-
+//teste
 function manipulaDados(operacao, controle) {
     const peca = controle.querySelector("[data-contador]")
     if(operacao === "-") {
